@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Twitter Catppuccin (Mocha)
 @namespace      github.com/RoootTheFox
-@version        0.1.0
+@version        0.1.1
 @description    Catppuccin Mocha (teal) for twitter dot com
 @author         RoootTheFox
 ==/UserStyle== */
@@ -442,11 +442,25 @@
         --ct-color-yellow: var(--ctp-mocha-yellow-raw);
         --ct-color-green: var(--ctp-mocha-green-raw);
         --ct-color-blue: var(--ctp-mocha-blue-raw);
+        --ct-color-mauve: var(--ctp-mocha-mauve-raw);
     }
 
     /* the background of the page */
     body {
         background-color: rgb(var(--ct-color-base)) !important;
+
+        --ShinigamiEyesTFriendly: rgb(var(--ct-color-green)) !important;
+        --ShinigamiEyesTransphobic: rgb(var(--ct-color-red)) !important;
+    }
+
+    .shinigami-eyes-theme-purple-yellow {
+        --ShinigamiEyesTFriendly: rgb(var(--ct-color-mauve)) !important;
+        --ShinigamiEyesTransphobic: rgb(var(--ct-color-yellow)) !important;
+    }
+
+    .shinigami-eyes-theme-cyan-orange {
+        --ShinigamiEyesTFriendly: rgb(var(--ct-color-blue)) !important;
+        --ShinigamiEyesTransphobic: rgb(var(--ct-color-peach)) !important;
     }
 
     /* a lot of background elements, mainly the timeline*/
