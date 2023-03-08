@@ -537,12 +537,35 @@
         border-color: rgb(var(--ct-color-accent)) !important;
     }
 
+    /* verified checkmark */
+    [data-testid="icon-verified"]>g>[fill="#1d9bf0"] {
+        fill: rgb(var(--ct-color-accent));
+    }
+
+    [data-testid="verificationBadge"]>g>[fill="#1d9bf0"] {
+        fill: rgb(var(--ct-color-accent));
+    }
+
+    /* end verified checkmark */
+
     /* yellow verified checkmark */
-    [fill="url(#paint1_linear_7351_410156)"] {
-        color: rgb(var(--ct-color-yellow)) !important;
+    [data-testid="icon-verified"]>g>g>[fill^="url(#"] {
         fill: rgb(var(--ct-color-yellow)) !important;
     }
 
+    [data-testid="icon-verified"]>g>g>[fill="#d18800"] {
+        fill: rgb(var(--ct-color-peach)) !important;
+    }
+
+    [data-testid="verificationBadge"]>g>g>[fill^="url(#"] {
+        fill: rgb(var(--ct-color-yellow)) !important;
+    }
+
+    [data-testid="verificationBadge"]>g>g>[fill="#d18800"] {
+        fill: rgb(var(--ct-color-peach)) !important;
+    }
+
+    /* end yellow verified checkmark */
     /* tweet hover character limit circle */
     [stroke="#1D9BF0"] {
         stroke: rgb(var(--ct-color-accent));
