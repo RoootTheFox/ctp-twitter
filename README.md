@@ -50,8 +50,8 @@
 ## 🙋 FAQ (optional)
 
 -	Q: **_"Why does the theme look bad / not work?"_**\
-	A: Make sure your Twitter is set to use "Lights out" as background \
-	   You can do so by going to: Settings and Support > Settings and Privacy > Accessibility, display, and languages > Display > select "Lights out"
+	A: Make sure your Twitter is set to use "Dim" as background \
+	   You can do so by going to: Settings and Support > Settings and Privacy > Accessibility, display, and languages > Display > select "Dim"
 
 ## 💝 Thanks to
 
